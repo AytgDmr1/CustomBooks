@@ -64,7 +64,7 @@ class Main extends PluginBase{
 			case "books":
 				$booklist = "";
 				foreach (array_keys($this->books->get('books')) as $book) {
-					$booklist .= $book;
+					$booklist .= $book . ", ";
 				}
 
 				$sender->sendMessage(TextFormat::colorize($this->lang->get('books') . $booklist));
