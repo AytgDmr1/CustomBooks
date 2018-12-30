@@ -10,9 +10,7 @@
 # Thank you for using CustomBooks plugin. Read below to get more information.
 #
 # - How do i add a new book? -
-# -> First, use /custombooks create <bookName> command. After that, edit the
-#    created book in this file (config.yml). 
-#    Other method: Write them manually in this file (config.yml).
+# -> Write them manually in this file (config.yml).
 # 
 # !! YOU DON'T NEED THE RESTART YOUR SERVER AFTER MAKING CHANGES !!
 #
