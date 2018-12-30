@@ -1,0 +1,14 @@
+name: CustomBooks
+main: AytgDmr1\CustomBooks\Main
+version: 1.0.0
+api: [3.0.0]
+author: AytgDmr1
+description: Create custom books!
+commands:
+    book:
+        description: "Get the specified book."
+        usage: "/book <book>"
+
+    books:
+        description: "Get a list of books."
+        usage: "/books"
