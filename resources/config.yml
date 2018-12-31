@@ -7,15 +7,8 @@
 #  \_____\__,_|___/\__\___/|_| |_| |_|____/ \___/ \___/|_|\_\___/
 #                                                                
 #------------------------------------------------------------------------------
-# Thank you for using CustomBooks plugin. Read below to get more information.
-#
-# You can change the messages in this file (lang.yml) to translate it to your
-# language.
+# Thank you for using CustomBooks plugin. 
 #
 
-specify-book-name: "&4Please specify a book name!"
-book-not-found: "&4The book you specified is not found!"
-no-permission: "&4You don't have permission to get this book."
-
-# Books will be written to the end of the line. 
-books: "&2Available books: &b"
+# The books which is/are specified below will be given to the users on join.
+spawn-books: ['example', 'example2']

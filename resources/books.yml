@@ -10,12 +10,15 @@
 # Thank you for using CustomBooks plugin. Read below to get more information.
 #
 # - How do i add a new book? -
-# -> Write them manually in this file (config.yml).
+# -> Write them manually in this file (books.yml).
 # 
 # !! YOU DON'T NEED THE RESTART YOUR SERVER AFTER MAKING CHANGES !!
 #
 # - How do i use colors in books? -
 # -> Use & to change the color in a line. i.e "&bThis is aqua-colored text!"
+#
+# - How do i jump to the other line? -
+# -> use \n to jump to the other line. i.e "First Line\nSecond Line"
 #
 ---
 books:
@@ -25,4 +28,10 @@ books:
       - "This is an example book."
       - "You can add new lines \nlike \nthat!"
       - "&bOr &acolorize &ethem"
+  admin:
+    name: "&4&lAdmin Book"
+    permission: "books.admin"
+    pages:
+      - "This is an admin book."
+      - "Only users with books.admin permission is able to get this book"
 ...
