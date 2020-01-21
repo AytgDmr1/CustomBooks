@@ -1,2 +1,2 @@
 # CustomBooks
-Plugin to create custom plugins for PocketMine
+Plugin to create custom books for PocketMine
